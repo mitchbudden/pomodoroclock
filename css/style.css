@@ -1,0 +1,132 @@
+
+body {
+  background-color: #ff6666;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  text-shadow: 3px 2px black;
+}
+
+#start {
+  margin-top: 1%;
+  height: 3em;
+  width: 6em;
+  font-size: 15px;
+  margin-left: 47%;
+  border-style: solid;
+  border-color: black;
+  border-thickness: 5px;
+  box-shadow: 3px 3px 5px black;
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+#reset {
+  margin-top: 1%;
+  height: 3em;
+  width: 6em;
+  font-size: 15px;
+  margin-left: 47%;
+  border-style: solid;
+  border-color: black;
+  border-thickness: 5px;
+  box-shadow: 3px 3px 5px black;
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+#break {
+  text-align: center;
+  padding-left: 20%;
+  padding-top: -10%;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+
+
+}
+
+#work {
+  text-align: left;
+  padding-left: 25%;
+  padding-top: -10%;
+  color: white;
+  font-family: 'Aldrich', sans-serif;
+
+
+}
+
+#decreaseBreak {
+  margin-left: 80%;
+  margin-top: 10%;
+  height: 3em;
+  width: 3em;
+  box-shadow: 3px 3px 5px black;
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+#displayBreak {
+  margin-left: 75%;
+  font-size: 45px;
+  font-family: 'Aldrich', sans-serif;
+
+
+}
+
+#increaseBreak {
+  margin-left: 60%;
+  margin-top: 10%;
+  height: 3em;
+  width: 3em;
+  box-shadow: 3px 3px 5px black;
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+#decreaseSession {
+  margin-left: 30%;
+  margin-top: 10%;
+  height: 3em;
+  width: 3em;  
+  box-shadow: 3px 3px 5px black;
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+#displaySession {
+  margin-left: -20%;
+  font-size: 45px;
+  font-family: 'Aldrich', sans-serif;
+
+
+}
+
+#increaseSession {
+  margin-left: 0%;
+  margin-top: 10%;
+  height: 3em;
+  width: 3em;  
+  box-shadow: 3px 3px 5px black;
+}
+
+#timer {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  /*padding-top: 3em;*/
+  font-family: 'Aldrich', sans-serif;
+
+}
+
+#timeType {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  font-family: 'Aldrich', sans-serif;
+
+}

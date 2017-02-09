@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Pomodoro Clock</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  <meta charset="UTF-8">
+  <link rel=stylesheet>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+</head>
+<div class="container-fluid">
+<body>
+  <h1 id="title">
+    Pomodoro Clock
+  </h1>
+  <button class="btn btn-default" id="start"><b>START</b></button>
+  <button class="btn btn-default" id="reset"><b>RESET</b></button>
+  <div class="row">
+    <div class="col-xs-6">
+      <h2 id="break"><b>Break Length</b></h2>
+      <div class="leftChange">
+        <div class="row">
+          <div class="col-xs-5">
+            <button class="btn btn-default" id="decreaseBreak">-</button>
+          </div>
+          <div class="col-xs-2">
+            <h1 id="displayBreak"></h1>
+          </div>
+          <div class="col-xs-5">
+            <button class="btn btn-default" id="increaseBreak">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-6">
+      <h2 id="work"><b>Session Length</b></h2>
+      <div class="rightChange">
+        <div class="row">
+          <div class="col-xs-4">
+            <button class="btn btn-default" id="decreaseSession">-</button>
+          </div>
+          <div class="col-xs-4">
+            <h1 id="displaySession">25</h1>
+          </div>
+          <div class="col-xs-4">
+            <button class="btn btn-default" id="increaseSession">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 id="timer"></h1>
+    <h2 id="timeType"></h2>
+  </div>
+</body>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
